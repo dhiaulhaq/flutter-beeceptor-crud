@@ -21,12 +21,12 @@ Pastikan kalian sudah memiliki pengetahuan dasar mengenai Flutter dan REST API, 
 
 1. Buat project Flutter baru pada Android Studio/Visual Studio Code
 
-2. Tambahkan dependency 'http: ^1.4.0' pada pubspec.yaml
+2. Tambahkan dependency `http: ^1.4.0` pada pubspec.yaml
 ![Menambahkan dependency http](documentation/http.png)
 
-3. Pada folder 'lib' buat 3 buah folder baru bernama 'model', 'services', dan 'screens'
+3. Pada folder 'lib' buat 3 buah folder baru bernama `model`, `services`, dan `screens`
 
-4. Pada folder 'model' yang sudah dibuat, buat file bernama 'user.dart' lalu tambahkan kode di bawah ini:
+4. Pada folder `model` yang sudah dibuat, buat file bernama `user.dart` lalu tambahkan kode di bawah ini:
 ```
 class User {
   final String? id;
@@ -46,7 +46,7 @@ class User {
 ```
 > JANGAN LUPA UNTUK DI SAVE
 
-5. Selanjutnya pada folder 'services', buat file bernama 'api_service.dart' dan tambahkan kode ini:
+5. Selanjutnya pada folder `services`, buat file bernama `api_service.dart` dan tambahkan kode ini:
 ```
 import 'dart:convert';
 import 'package:http/http.dart' as http;
@@ -98,7 +98,7 @@ class ApiService {
 ```
 > JANGAN LUPA UNTUK DI SAVE
 
-6. Setelah itu pada folder 'screens', buat satu file bernama 'user_screen.dart' dan tambahkan kode ini:
+6. Setelah itu pada folder `screens`, buat satu file bernama `user_screen.dart` dan tambahkan kode ini:
 ```
 import 'package:flutter/material.dart';
 import '../model/user.dart';
@@ -251,7 +251,7 @@ class _UserScreenState extends State<UserScreen> {
 ```
 > JANGAN LUPA UNTUK DI SAVE
 
-7. Terakhir, pada 'main.dart' ubah kode-nya menjadi seperti ini:
+7. Terakhir, pada `main.dart` ubah kode-nya menjadi seperti ini:
 ```
 import 'package:flutter/material.dart';
 import './screens/user_screen.dart';
