@@ -12,10 +12,11 @@ Di proyek ini, kita akan membuat sebuah aplikasi CRUD sederhana untuk mendata us
 
 ## Requirement
 
-Pastikan kalian sudah memiliki pengetahuan dasar mengenai Flutter dan REST API, serta sudah menginstall hal-hal di bawah ini pada device kalian:
+Pastikan kalian sudah memiliki pengetahuan dasar mengenai Flutter dan REST API, serta sudah menginstall/memiliki hal-hal di bawah ini:
 - Flutter SDK
 - Android Studio/Visual Studio Code
 - XCode & Simulator (Mac)
+- Beeceptor CRUD REST API Key: Dapatkan API Key di [sini](https://beeceptor.com/crud-api/)
 
 ## Implementasi
 
