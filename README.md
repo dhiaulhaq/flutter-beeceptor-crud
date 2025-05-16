@@ -24,7 +24,7 @@ Pastikan kalian sudah memiliki pengetahuan dasar mengenai Flutter dan REST API, 
 2. Tambahkan dependency `http: ^1.4.0` pada pubspec.yaml
 ![Menambahkan dependency http](documentation/http.png)
 
-3. Pada folder 'lib' buat 3 buah folder baru bernama `model`, `services`, dan `screens`
+3. Pada folder `lib` buat 3 buah folder baru bernama `model`, `services`, dan `screens`
 
 4. Pada folder `model` yang sudah dibuat, buat file bernama `user.dart` lalu tambahkan kode di bawah ini:
 ```
